@@ -1,0 +1,11 @@
+
+def getMaxAdditionalDinersCount(N: int, K: int, M: int, S: List[int]) -> int:
+  # Write your code here
+  bench = []
+  for i in range(N):
+    bench.append(i+1)
+  for i in S:
+    bench[i] = 'X'
+  print(bench)
+  return 0
+
